@@ -1,0 +1,39 @@
+{
+  "episode_count": 2,
+  "families_present": [
+    "correction"
+  ],
+  "core_metrics": {
+    "recovery_episode_count": 1,
+    "S_rec": 1.0,
+    "L_rec": 3.0,
+    "ambiguity_episode_count": 0,
+    "Succ_clar": null,
+    "T_clar": null,
+    "fallback_episode_count": 0,
+    "Prec_abort": null,
+    "Rec_abort": null,
+    "FAR": null,
+    "UCR": null,
+    "correction_episode_count": 2,
+    "eta_corr": 0.0,
+    "barK_rec": 1.0,
+    "horizon": {
+      "horizon_episode_count": 0,
+      "baseline_horizon": null,
+      "delta_hor": {}
+    }
+  },
+  "family_counts": {
+    "correction": 2
+  },
+  "family_rollups": {
+    "correction": {
+      "episodes": 2,
+      "success_rate": 1.0,
+      "recovery_episode_count": 1,
+      "S_rec": 1.0,
+      "L_rec": 3.0
+    }
+  }
+}

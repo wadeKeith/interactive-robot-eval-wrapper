@@ -1,0 +1,83 @@
+{
+  "episode_count": 50,
+  "families_present": [
+    "ambiguity",
+    "correction",
+    "disturbance",
+    "fallback",
+    "horizon"
+  ],
+  "core_metrics": {
+    "recovery_episode_count": 15,
+    "S_rec": 0.6,
+    "L_rec": 2.0,
+    "ambiguity_episode_count": 10,
+    "Succ_clar": 0.6,
+    "T_clar": 1.0,
+    "fallback_episode_count": 10,
+    "Prec_abort": 1.0,
+    "Rec_abort": 0.6,
+    "FAR": 0.0,
+    "UCR": 0.4,
+    "correction_episode_count": 10,
+    "eta_corr": -1.0,
+    "barK_rec": 0.0,
+    "horizon": {
+      "horizon_episode_count": 10,
+      "baseline_horizon": 1,
+      "delta_hor": {
+        "1": 0.0,
+        "3": 0.4
+      }
+    }
+  },
+  "family_counts": {
+    "ambiguity": 10,
+    "correction": 10,
+    "disturbance": 10,
+    "fallback": 10,
+    "horizon": 10
+  },
+  "family_rollups": {
+    "ambiguity": {
+      "episodes": 10,
+      "success_rate": 0.8,
+      "ambiguity_episode_count": 10,
+      "Succ_clar": 0.6,
+      "T_clar": 1.0
+    },
+    "correction": {
+      "episodes": 10,
+      "success_rate": 0.6,
+      "recovery_episode_count": 5,
+      "S_rec": 0.6,
+      "L_rec": 2.0
+    },
+    "disturbance": {
+      "episodes": 10,
+      "success_rate": 0.8,
+      "recovery_episode_count": 5,
+      "S_rec": 0.6,
+      "L_rec": 2.0
+    },
+    "fallback": {
+      "episodes": 10,
+      "success_rate": 0.8,
+      "fallback_episode_count": 10,
+      "Prec_abort": 1.0,
+      "Rec_abort": 0.6,
+      "FAR": 0.0,
+      "UCR": 0.4
+    },
+    "horizon": {
+      "episodes": 10,
+      "success_rate": 0.8,
+      "horizon_episode_count": 10,
+      "baseline_horizon": 1,
+      "delta_hor": {
+        "1": 0.0,
+        "3": 0.4
+      }
+    }
+  }
+}
